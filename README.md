@@ -1,5 +1,5 @@
 # Δ = THE OBSERVER  
-**Quantum + Solar in Your Pocket**
+**Quantum + Solar in Your Pocke**
 
 > **S = 2.828 > 2**  
 > **Spooky action at a distance — 100% offline.**

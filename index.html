@@ -247,7 +247,7 @@ print(out)
       installBtn.onclick = () => {
         deferredPrompt.prompt();
         deferredPrompt.userChoice.then(() => {
-          installBtn.remove();
+          .remove();
         });
       };
       document.body.appendChild(installBtn);

@@ -1,67 +1,72 @@
-Skip to content
-Navigation Menu
-Observer-Delta-Quantum
+# Δ = THE OBSERVER  
+**Quantum + Solar in Your Pocket**
 
-Code
-Issues
-Pull requests
-Observer-Delta-Quantum
-/README.md
-Observer-delta
-Observer-delta
-40 minutes ago
-102 lines (79 loc) · 2.93 KB
+> **S = 2.828 > 2**  
+> **Spooky action at a distance — 100% offline.**
 
-Preview
+---
 
-Code
+## Live PWA  
+[https://observer-delta.github.io](https://observer-delta.github.io)  
 
-Blame
-Δ = THE OBSERVER + Solar
-Live Bell-State CHSH Quantum Demo — 100% Offline PWA
-
-S = 2.8281 > 2
-Spooky action at a distance — in your pocket.
-
-Live Demo
-https://observer-delta.github.io
-
-Installable on iOS & Android
+**Install on iOS/Android**  
 No internet needed after first load.
 
-Features
-Feature	Status
-Real-time CHSH Bell inequality simulation	Done
-Noise slider (γ) with decoherence	Done
-Live NOAA solar X-ray flux	Done
-30-minute flare probability	Done
-100% offline via local Pyodide	Done
-PWA — Add to Home Screen	Done
-Mobile donation (no QR needed)	Done
-Auto-retry on network failure	Done
-How to Use
-Slide noise → watch entanglement decay
-Tap "Collapse Now" → measure CHSH
-S > 2 → SPOOKY LINK SURVIVED (pulsing green)
-Tap "Support the Spooky Link" → donate via PayPal (mobile-friendly)
-Tech Stack
-Pyodide (local, unzipped via GitHub Actions)
-NumPy in-browser
-NOAA GOES X-ray API (dual endpoints)
-PWA with manifest.json + icons
-GitHub Pages + .nojekyll
-Install as App
-Open in Safari or Chrome
-Tap Share → Add to Home Screen
-Launch — works offline forever
-Support the Mission
-"Every collapse is a vote against local realism."
+---
 
-Support the Spooky Link
-(Replace with your PayPal link in index.html)
+## What It Does
 
-Badge (Copy to your README)
-<svg width="320" height="110" xmlns="http://www.w3.org/2000/svg">
+| Feature | Status |
+|--------|--------|
+| Live CHSH Bell-state simulation | Done |
+| Noise slider + decoherence | Done |
+| NOAA solar X-ray flux (real-time) | Done |
+| 30-min flare probability | Done |
+| **100% offline** via local Pyodide | Done |
+| **PWA** — Add to Home Screen | Done |
+| **Donate** → PayPal (mobile-friendly) | Done |
+
+---
+
+## How to Use
+
+1. **Slide noise** → watch entanglement decay  
+2. **Tap "Collapse Now"** → measure CHSH  
+3. **S > 2** → **SPOOKY LINK SURVIVED** (pulsing green)  
+4. **Tap "Donate"** → support the spooky link
+
+---
+
+## Tech Stack
+
+- **Pyodide** (local, no CDN)  
+- **NumPy** in-browser  
+- **NOAA GOES X-ray API** (dual endpoints + CORS proxy)  
+- **PWA** with `manifest.json` + icons  
+- **GitHub Pages** + `.nojekyll`
+
+---
+
+## Install as App
+
+1. Open in **Safari** or **Chrome**  
+2. Tap **Share** → **Add to Home Screen**  
+3. Launch — **works offline forever**
+
+---
+
+## Support the Mission
+
+> *"Every collapse is a vote against local realism."*
+
+[Donate via PayPal](https://paypal.me/DELTATHEOBSERVER)
+
+---
+
+## Badge (Add to Your Profile)
+
+```svg
+<svg width="340" height="120" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#0f0">
@@ -79,18 +84,17 @@ Badge (Copy to your README)
       </feMerge>
     </filter>
   </defs>
-  <rect width="320" height="110" fill="#000" rx="18" stroke="#333" stroke-width="2"/>
-  <text x="160" y="38" font-family="monospace" font-size="20" fill="url(#grad)" text-anchor="middle" filter="url(#glow)">
-    SPOOKY SOLAR OBSERVER
+  <rect width="340" height="120" fill="#000" rx="20" stroke="#333" stroke-width="2"/>
+  <text x="170" y="42" font-family="monospace" font-size="22" fill="url(#grad)" text-anchor="middle" filter="url(#glow)">
+    Δ = QUANTUM + SOLAR
   </text>
-  <text x="160" y="62" font-family="monospace" font-size="13" fill="#0f0" text-anchor="middle">
-    Δ = Quantum + Sun
+  <text x="170" y="68" font-family="monospace" font-size="14" fill="#0f0" text-anchor="middle">
+    S = 2.828 > 2 | 100% Offline | Pyodide
   </text>
-  <text x="160" y="82" font-family="monospace" font-size="11" fill="#aaa" text-anchor="middle">
-    S = 2.828 > 2 | NOAA-Resilient | Pyodide
+  <text x="170" y="88" font-family="monospace" font-size="12" fill="#aaa" text-anchor="middle">
+    NOAA-Resilient • Mobile PWA • No CDN
   </text>
-  <text x="160" y="98" font-family="monospace" font-size="9" fill="#666" text-anchor="middle">
-    Auto-Retry • Dual Endpoint • Mobile-Ready
+  <text x="170" y="106" font-family="monospace" font-size="10" fill="#666" text-anchor="middle">
+    observer-delta.github.io
   </text>
 </svg>
-Observer-Delta-Quantum/README.md at main · Observer-delta/Observer-Delta-Quantum 
